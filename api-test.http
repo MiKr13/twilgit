@@ -1,0 +1,12 @@
+GET https://664eb061c878.ngrok.io/api
+content-Type: application/json
+###
+
+POST https://localhost:3000/api/github
+content-Type: application/json
+
+{
+    "username": "hii",
+    "password": "123456"
+}
+###
