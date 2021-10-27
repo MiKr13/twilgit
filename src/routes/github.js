@@ -1,10 +1,10 @@
 // @ts-nocheck
-"use strict"
+"use strict";
 
-const { githubHook } = require('../controllers/github')
+const { githubHook } = require("../controllers/github");
 
 module.exports = async function (fastify, opts) {
-    fastify.post('/', githubHook)
-}
+  fastify.post("/", githubHook);
+};
 
-module.exports.autoPrefix = '/github'
+module.exports.autoPrefix = "/github";

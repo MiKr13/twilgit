@@ -1,8 +1,8 @@
 // @ts-nocheck
-"use strict"
+"use strict";
 
-const { root } = require('../controllers/root')
+const { root } = require("../controllers/root");
 
 module.exports = async function (fastify, opts) {
-  fastify.get('/', root)
-}
+  fastify.get("/", root);
+};
