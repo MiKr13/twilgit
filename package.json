@@ -10,17 +10,17 @@
   "author": "Mihir Kumar",
   "license": "ISC",
   "dependencies": {
-    "@octokit/auth-token": "2.4.5",
+    "@octokit/auth-token": "2.5.0",
     "@octokit/core": "3.5.1",
     "close-with-grace": "^1.1.0",
     "dotenv": "^10.0.0",
-    "fastify": "^3.20.1",
-    "fastify-autoload": "^3.8.0",
+    "fastify": "^3.22.1",
+    "fastify-autoload": "^3.9.0",
     "fastify-plugin": "^3.0.0",
     "fastify-sensible": "^3.1.1",
-    "twilio": "3.66.1"
+    "twilio": "3.70.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.14"
   }
 }
